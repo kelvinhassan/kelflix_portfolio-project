@@ -20,7 +20,8 @@ function ProfileScreen() {
           <div className="profileScreen__details">
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
-              <h3>Plans</h3>
+              <h3>Plans: Premium Subscription</h3>
+              <h2>MPESA Integration Coming Soon</h2>
               <button
                 onClick={() => auth.signOut()}
                 className="profileScreen__signOut"
